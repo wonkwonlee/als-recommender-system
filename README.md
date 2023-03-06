@@ -1,6 +1,6 @@
-# Collaborative-filter Based Recommender System for Movies
+# Collaborative-filter Based Recommender System
 
-Collaborative-filter Based Recommender System for Movies using Spark's Alternating Least Squares method
+Collaborative-filtering Movie Recommender System using Spark's Alternating Least Squares (ALS) method
 
 Final Project of Big Data - DS.GA.1004 Spring 2022
 
@@ -13,7 +13,7 @@ Final Project of Big Data - DS.GA.1004 Spring 2022
  https://doi.org/10.1145/2827872
 
 ## Method
-- Alternating Least Square (ALS) method is a matrix factorization algorithm which decomposes the user-item interaction matrix into the product of two lower dimensionality rectangular matrices, user factor matrix U and item factor matrix V
+- ALS method is a matrix factorization algorithm that decomposes the user-item interaction matrix into the product of two lower dimensionality rectangular matrices, user factor matrix U and item factor matrix V
 - Parallel ALS method is compared to a single-machine implmentation using LightFM
 
 
