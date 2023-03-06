@@ -1,0 +1,197 @@
+# DSGA-1004 Big Data Final Project
+## Recommedation System
+
+
+## Latent factor model hyperparameter tuning
+- Rank: 10, regularization parameter: 0.01, max iterations: 10
+    - MAP: 0.0008298372443188921, MAP@100: 0.00271102618546856, NDCG@100: 0.015162520624220967
+    - Total time: 21.46445631980896
+- Rank: 10, regularization parameter: 0.05, max iterations: 10
+    - MAP: 0.0022505861704498207, MAP@100: 0.005043647675702608, NDCG@100: 0.029207934339197
+    - Total time: 10.447546482086182
+- Rank: 10, regularization parameter: 0.1, max iterations: 10
+    - MAP: 0.00174775670616431, MAP@100: 0.0032993053783100116, NDCG@100: 0.0253949707111681
+    - Total time: 11.956375360488892
+- Rank: 10, regularization parameter: 1.0, max iterations: 10
+    - MAP: 1.9134897070236642e-07, MAP@100: 2.5812976147749235e-06, NDCG@100: 0.0001212112972020597
+    - Total time: 12.808921575546265
+- Rank: 20, regularization parameter: 0.01, max iterations: 10
+    - MAP: 0.0029038779202641713, MAP@100: 0.00788698451719261, NDCG@100: 0.03716416598694217
+    - Total time: 16.612292289733887
+- Rank: 20, regularization parameter: 0.05, max iterations: 10
+    - MAP: 0.012868373219282135, MAP@100: 0.018788099340725246, NDCG@100: 0.0889464704521878
+    - Total time: 17.327113151550293
+- Rank: 20, regularization parameter: 0.1, max iterations: 10
+    - MAP: 0.012053547886531527, MAP@100: 0.015159610762605871, NDCG@100: 0.0698904338949492
+    - Total time: 13.370500326156616
+- Rank: 20, regularization parameter: 1.0, max iterations: 10
+    - MAP: 6.243679709622676e-07, MAP@100: 8.422723928280989e-06, NDCG@100: 0.00016287937301169558
+    - Total time: 14.377438068389893
+- Rank: 30, regularization parameter: 0.01, max iterations: 10
+    - MAP: 0.008278206104257052, MAP@100: 0.016237531474955002, NDCG@100: 0.06612373786976986
+    - Total time: 17.680036306381226
+- Rank: 30, regularization parameter: 0.05, max iterations: 10
+    - MAP: 0.02727894894278768, MAP@100: 0.036891956316022975, NDCG@100: 0.14144417148148108
+    - Total time: 17.037681102752686
+- Rank: 30, regularization parameter: 0.1, max iterations: 10
+    - MAP: 0.018115631161647848, MAP@100: 0.02298014808092738, NDCG@100: 0.09897170012847997
+    - Total time: 13.165327072143555
+- Rank: 30, regularization parameter: 1.0, max iterations: 10
+    - MAP: 6.243679709622676e-07, MAP@100: 8.422723928280989e-06, NDCG@100: 0.00016287937301169558
+    - Total time: 14.10642409324646
+- Rank: 40, regularization parameter: 0.01, max iterations: 10
+    - MAP: 0.012928954563354007, MAP@100: 0.022158542089883958, NDCG@100: 0.08889491976794615
+    - Total time: 19.123007774353027
+- Rank: 40, regularization parameter: 0.05, max iterations: 10
+    - MAP: 0.04018348471477809, MAP@100: 0.05062090541112774, NDCG@100: 0.17276863399287862
+    - Total time: 20.638330936431885
+- Rank: 40, regularization parameter: 0.1, max iterations: 10
+    - MAP: 0.019908795191682063, MAP@100: 0.025161002775355018, NDCG@100: 0.10658228141716204
+    - Total time: 16.324981689453125
+- Rank: 40, regularization parameter: 1.0, max iterations: 10
+    - MAP: 6.243679709622676e-07, MAP@100: 8.422723928280989e-06, NDCG@100: 0.00016287937301169558
+    - Total time: 15.83332347869873
+- Rank: 50, regularization parameter: 0.01, max iterations: 10
+    - MAP: 0.022870553444292147, MAP@100: 0.034762172390619475, NDCG@100: 0.11803034063381725
+    - Total time: 24.134106159210205
+- Rank: 50, regularization parameter: 0.05, max iterations: 10
+    - MAP: 0.05865590048727252, MAP@100: 0.07020888898867958, NDCG@100: 0.2131374269691106
+    - Total time: 23.437293767929077
+- Rank: 50, regularization parameter: 0.1, max iterations: 10
+    - MAP: 0.02677288423338587, MAP@100: 0.03200413559854557, NDCG@100: 0.12246830869884613
+    - Total time: 25.62621831893921
+- Rank: 50, regularization parameter: 1.0, max iterations: 10
+    - MAP: 6.243679709622676e-07, MAP@100: 8.422723928280989e-06, NDCG@100: 0.00016287937301169558
+    - Total time: 19.37851858139038
+- Rank: 10, regularization parameter: 0.01, max iterations: 15
+    - MAP: 0.0008020918179605269, MAP@100: 0.002701338882004846, NDCG@100: 0.016037435247936337
+    - Total time: 16.4059419631958
+- Rank: 10, regularization parameter: 0.05, max iterations: 15
+    - MAP: 0.0026004295944397618, MAP@100: 0.005732837348855143, NDCG@100: 0.03442361455386289
+    - Total time: 21.61203145980835
+- Rank: 10, regularization parameter: 0.1, max iterations: 15
+    - MAP: 0.0024538466943628268, MAP@100: 0.004190262565354685, NDCG@100: 0.03006547206248313
+    - Total time: 17.852137804031372
+- Rank: 10, regularization parameter: 1.0, max iterations: 15
+    - MAP: 1.9134897070236642e-07, MAP@100: 2.5812976147749235e-06, NDCG@100: 0.0001212112972020597
+    - Total time: 17.058277368545532
+- Rank: 20, regularization parameter: 0.01, max iterations: 15
+    - MAP: 0.0027757163369202366, MAP@100: 0.007972342814645856, NDCG@100: 0.039992281456619864
+    - Total time: 17.77396297454834
+- Rank: 20, regularization parameter: 0.05, max iterations: 15
+    - MAP: 0.014457724321742296, MAP@100: 0.0211531043317273, NDCG@100: 0.09592382162140448
+    - Total time: 18.452728986740112
+- Rank: 20, regularization parameter: 0.1, max iterations: 15
+    - MAP: 0.013990144901203124, MAP@100: 0.0174952147046834, NDCG@100: 0.07842697173447113
+    - Total time: 16.968454599380493
+- Rank: 20, regularization parameter: 1.0, max iterations: 15
+    - MAP: 1.9134897070236642e-07, MAP@100: 2.5812976147749235e-06, NDCG@100: 0.0001212112972020597
+    - Total time: 14.851806163787842
+- Rank: 30, regularization parameter: 0.01, max iterations: 15
+    - MAP: 0.008471921639414908, MAP@100: 0.016426034900392846, NDCG@100: 0.07247216491214732
+    - Total time: 18.764771461486816
+- Rank: 30, regularization parameter: 0.05, max iterations: 15
+    - MAP: 0.03213484290486493, MAP@100: 0.04177874877408178, NDCG@100: 0.15798523059608857
+    - Total time: 19.217626333236694
+- Rank: 30, regularization parameter: 0.1, max iterations: 15
+    - MAP: 0.021043781834686755, MAP@100: 0.026282152677011276, NDCG@100: 0.10750104675809684
+    - Total time: 17.1823947429657
+- Rank: 30, regularization parameter: 1.0, max iterations: 15
+    - MAP: 1.9134897070236642e-07, MAP@100: 2.5812976147749235e-06, NDCG@100: 0.0001212112972020597
+    - Total time: 15.140056371688843
+- Rank: 40, regularization parameter: 0.01, max iterations: 15
+    - MAP: 0.014657496910583797, MAP@100: 0.023776961884373643, NDCG@100: 0.09746678676426408
+    - Total time: 22.616713285446167
+- Rank: 40, regularization parameter: 0.05, max iterations: 15
+    - MAP: 0.0479601397600892, MAP@100: 0.0583770009840959, NDCG@100: 0.1888352690360127
+    - Total time: 21.00732135772705
+- Rank: 40, regularization parameter: 0.1, max iterations: 15
+    - MAP: 0.02462770164658201, MAP@100: 0.030353941812588787, NDCG@100: 0.12015841718029979
+    - Total time: 18.791611909866333
+- Rank: 40, regularization parameter: 1.0, max iterations: 15
+    - MAP: 1.9134897070236642e-07, MAP@100: 2.5812976147749235e-06, NDCG@100: 0.0001212112972020597
+    - Total time: 14.273410558700562
+- Rank: 50, regularization parameter: 0.01, max iterations: 15
+    - MAP: 0.023035615240788253, MAP@100: 0.03417099782242961, NDCG@100: 0.1252503726598021
+    - Total time: 24.391157627105713
+- Rank: 50, regularization parameter: 0.05, max iterations: 15
+    - MAP: 0.06505782649322489, MAP@100: 0.0767890200597093, NDCG@100: 0.22587781906460697
+    - Total time: 22.76749062538147
+- Rank: 50, regularization parameter: 0.1, max iterations: 15
+    - MAP: 0.0319760232988728, MAP@100: 0.0376962285343762, NDCG@100: 0.13408019390777315
+    - Total time: 22.0888249874115
+- Rank: 50, regularization parameter: 1.0, max iterations: 15
+    - MAP: 1.9134897070236642e-07, MAP@100: 2.5812976147749235e-06, NDCG@100: 0.0001212112972020597
+    - Total time: 15.87050986289978
+- Rank: 10, regularization parameter: 0.01, max iterations: 20
+    - MAP: 0.0008707654613942406, MAP@100: 0.0027875797002041057, NDCG@100: 0.018780488782178813
+    - Total time: 12.393830299377441
+- Rank: 10, regularization parameter: 0.05, max iterations: 20
+    - MAP: 0.0027454760342157003, MAP@100: 0.006178073770437514, NDCG@100: 0.03733541893058738
+    - Total time: 12.018596172332764
+- Rank: 10, regularization parameter: 0.1, max iterations: 20
+    - MAP: 0.0028030564200207833, MAP@100: 0.004563681787177583, NDCG@100: 0.032407490938917614
+    - Total time: 12.468856811523438
+- Rank: 10, regularization parameter: 1.0, max iterations: 20
+    - MAP: 1.9332853696605382e-07, MAP@100: 2.6080019636720667e-06, NDCG@100: 0.0001214813743748383
+    - Total time: 12.155650615692139
+- Rank: 20, regularization parameter: 0.01, max iterations: 20
+    - MAP: 0.0027320232658522427, MAP@100: 0.007814201900515393, NDCG@100: 0.04000167092280379
+    - Total time: 16.7122540473938
+- Rank: 20, regularization parameter: 0.05, max iterations: 20
+    - MAP: 0.014388760066167624, MAP@100: 0.021054524199897846, NDCG@100: 0.09792283537696672
+    - Total time: 15.589400291442871
+- Rank: 20, regularization parameter: 0.1, max iterations: 20
+    - MAP: 0.014168184459084573, MAP@100: 0.017829799089503075, NDCG@100: 0.08152607093727567
+    - Total time: 14.636165618896484
+- Rank: 20, regularization parameter: 1.0, max iterations: 20
+    - MAP: 1.9332853696605382e-07, MAP@100: 2.6080019636720667e-06, NDCG@100: 0.0001214813743748383
+    - Total time: 12.5226309299469
+- Rank: 30, regularization parameter: 0.01, max iterations: 20
+    - MAP: 0.008564470071004962, MAP@100: 0.01650430313593119, NDCG@100: 0.07874765978321367
+    - Total time: 18.544495820999146
+- Rank: 30, regularization parameter: 0.05, max iterations: 20
+    - MAP: 0.032630561737370674, MAP@100: 0.041991946808968825, NDCG@100: 0.15970077683954195
+    - Total time: 16.922486782073975
+- Rank: 30, regularization parameter: 0.1, max iterations: 20
+    - MAP: 0.022162977392996518, MAP@100: 0.02761443715056139, NDCG@100: 0.11200521224567671
+    - Total time: 17.122605562210083
+- Rank: 30, regularization parameter: 1.0, max iterations: 20
+    - MAP: 1.9332853696605382e-07, MAP@100: 2.6080019636720667e-06, NDCG@100: 0.0001214813743748383
+    - Total time: 13.863264083862305
+- Rank: 40, regularization parameter: 0.01, max iterations: 20
+    - MAP: 0.015465818615781985, MAP@100: 0.02449378554035489, NDCG@100: 0.10410851730123304
+    - Total time: 23.817164659500122
+- Rank: 40, regularization parameter: 0.05, max iterations: 20
+    - MAP: 0.050854340799192675, MAP@100: 0.06088820258507826, NDCG@100: 0.1935844468007749
+    - Total time: 21.036693572998047
+- Rank: 40, regularization parameter: 0.1, max iterations: 20
+    - MAP: 0.026838633530932913, MAP@100: 0.032940931142655804, NDCG@100: 0.127384321579994
+    - Total time: 20.775915145874023
+- Rank: 40, regularization parameter: 1.0, max iterations: 20
+    - MAP: 1.9332853696605382e-07, MAP@100: 2.6080019636720667e-06, NDCG@100: 0.0001214813743748383
+    - Total time: 15.362286806106567
+- Rank: 50, regularization parameter: 0.01, max iterations: 20
+    - MAP: 0.02549488212935144, MAP@100: 0.03634220292127987, NDCG@100: 0.13826120150496446
+    - Total time: 28.682722568511963
+- Rank: 50, regularization parameter: 0.05, max iterations: 20
+    - MAP: 0.06608394523717197, MAP@100: 0.07795243221803405, NDCG@100: 0.22865108030150624
+    - Total time: 27.112111568450928
+- Rank: 50, regularization parameter: 0.1, max iterations: 20
+    - MAP: 0.03468760986784298, MAP@100: 0.04077639475550497, NDCG@100: 0.1394400649817323
+    - Total time: 25.89602780342102
+- Rank: 50, regularization parameter: 1.0, max iterations: 20
+    - MAP: 1.9332853696605382e-07, MAP@100: 2.6080019636720667e-06, NDCG@100: 0.0001214813743748383
+    - Total time: 18.23557996749878
+
+
+- Best model hyperparameters 
+    - rank: 50, regularization parameter: 0.05, max iterations: 20
+    
+- Evaluation on Validation Set
+    - MAP: 0.06608394523717197, MAP@100: 0.07795243221803405, NDCG@100: 0.22865108030150624
+    - Total time: 27.112111568450928
+
+- Evaluation on Test Set 
+    - MAP: 0.07410684845821555, MAP@100: 0.0925081470789652, NDCG@100: 0.2513954237505816
+    - Total time: 51.60753679275513
